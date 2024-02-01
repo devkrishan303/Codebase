@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    /* background-color: #f1ebdf; */
+}
+nav
+{
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #f1ebdf;
+
+}
+header
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+ul
+{
+    display: flex;
+}
+ul li
+{
+    margin: 0 30px;
+    list-style: none;
+}
+ul a
+{
+    text-decoration: none;
+}
+ul span
+{
+    background-color: #e7bb7a;
+    padding: 13px 18px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.text-image
+{
+    display: flex;
+}
+.first-text
+{
+    width: 400px;
+    height: 225px;
+    margin: 60px 120px 0;
+}
+.first-text h6
+{
+    color: #fac362;
+}
+.first-text h1
+{
+    color: #031916;
+    font-size: 50px;
+    margin: 20px 0;
+}
+.first-text h1 span
+{
+    color: #e4b777;
+    font-style: italic;
+}
+.first-text h5
+{
+    font-size: 12px;
+    color: #ada69c;
+    margin-bottom: 35px;
+}
+/* .ankr
+{
+    color: #000;
+} */
+.ankr span
+{
+    color: #000;
+    background-color: #e7bb7a;
+    padding: 13px 18px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.ankr a
+{
+    text-decoration: none;
+
+}
+.image img
+{
+    width: 300px;
+    height: 385px;
+    margin-left: 150px;
+    margin-top: 30px;
+} 
+.images img 
+{
+    width: 200px;
+    height: 70px;
+    margin: 0px 20px;
+    margin-top: 40px;
+}
+
+#three 
+{
+    margin-top: 54px;
+    height: 40px;
+}
+
+.images 
+{
+    display: flex;
+    justify-content: center;
+}
+.text-image2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 200px;
+}
+.image-shadow img
+{
+    box-shadow: 10px 10px #f2b66e;
+}
+.text-image2 img
+{
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+    /* box-shadow: 5px 5px 10px rgba(red, green, blue, alpha 10px); */
+}
+.sec-text
+{
+    margin: 30px;
+}
+.sec-text h6
+{
+    color: #fac362;
+}
+.sec-text h1
+{
+    color: #031916;
+    font-size: 50px;
+    margin: 20px 0;
+}
+.sec-text h5
+{
+    font-size: 12px;
+    color: #ada69c;
+}
+.bottom2
+{
+    width: 100%;
+    height: 500px;
+    background-color: #072b27;
+    margin-top: 70px;
+    text-align: center;
+    padding: 80px 0;
+}
+.bottom2 h6
+{
+    color: #fac362;
+}
+.bottom2 h1
+{
+    color: #fff;
+}
+.collum-box
+{
+    display: flex;
+}
+
