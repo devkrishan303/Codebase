@@ -501,6 +501,7 @@ height: 40px;
     width: 90px;
     height: 90px;
     display: flex;
+    padding: 15px;
     border: 3px solid #eeeeee;
     border-radius: 50%;
     position: absolute;
@@ -591,14 +592,15 @@ height: 40px;
 {
     color: #fff;
     background-color: #4719ff;
-    padding: 7px 14px;
+    padding: 8px 18px;
     font-size: 16px;
     font-weight: lighter;
+    border-radius: 3px;
     /* margin-left: 10px; */
 }
 .job-link1 a
 {
-    color: #333;
+    color: #666666;
     margin: 5px 8px 0;
     /* margin-right: 10px; */
 }
@@ -643,6 +645,97 @@ height: 40px;
     font-size: 42px;
     font-weight: lighter;
     padding: 40px 0;
+}
+.job-location
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0 0 40px;
+}
+.job-location p
+{
+    margin: 0 15px;
+    color: #333;
+}
+.job-location select
+{
+    font-size: 16px;
+    padding: 6px;
+    color: #666666;
+    border: 1px solid #eee;
+}
+.main-bottom
+{
+    border: 1px solid transparent;
+    margin-bottom: 40px;
+}
+.job-bottom
+{
+    width: 900px;
+    height: 100px;
+    margin: 10px auto;
+    /* margin: 10px 0; */
+    /* box-sizing: border-box; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.job-bottom h1
+{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0 0 10px 10px;
+    color: #444;
+}
+.job-bottom .job-one span
+{
+    padding: 10px;
+    color: #666;
+}
+.job-one a
+{
+    color: #666;
+    margin-right: 5px;
+}
+.job-bottom .job-btn button
+{
+    font-size: 16px;
+    padding: 9px 25px;
+    margin: 8px 0 0;
+    border: unset;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #666666;
+}
+.job-bottom:hover
+{
+     background-color: rgba(214, 213, 213, 0.247);
+     box-shadow: #333 1px solid;
+     border-radius: 5px;
+}
+.job-bottom:hover button
+{
+    background-color: #4719ff;
+}
+
+#job-footer
+{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #444;
+    padding: 30px 20px;
+}
+#job-footer h1
+{
+    font-size: 20px;
+}
+#job-footer span
+{
+    font-size: 12px;
 }
 
 
